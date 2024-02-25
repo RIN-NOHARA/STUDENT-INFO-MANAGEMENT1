@@ -1,0 +1,91 @@
+/* CSS for Navbar Component */
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: transparent; /* Set your desired background color */
+    color: white; /* Set the font color */
+  }
+  .qa
+  {
+    background-image: url("book4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:750px;
+  }
+
+  .lz
+  {
+    font-size: 50px;
+   margin-top: 100px;
+   margin-left: 200px;
+    color: white;
+    font-weight: bold;
+  }
+  .brand-logo-name {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .brand-logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .toggle-button {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .toggle-button .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white; /* Set the color of the toggle bars */
+    margin: 6px 0;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .main-nav li {
+    margin-left: 20px;
+  }
+  
+  .main-nav a {
+    text-decoration: none;
+    color: white; /* Set the link color */
+  }
+  
+  /* Media Query for Mobile */
+  @media (max-width: 768px) {
+    .toggle-button {
+      display: block;
+    }
+  
+    .main-nav {
+      display: none;
+      flex-direction: column;
+      background-color: #333; /* Set the background color for the mobile menu */
+      position: absolute;
+      top: 50px; /* Set the position of the mobile menu */
+      left: 0;
+      width: 100%;
+      
+    }
+  
+    .main-nav.active {
+      display: flex;
+    }
+  
+    .main-nav li {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  

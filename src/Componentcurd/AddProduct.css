@@ -1,0 +1,81 @@
+/* AddProduct.css */
+
+/* Styles for the container */
+.containerproduct {
+  margin-top: 20px;
+}
+
+.zo
+{
+  background-color: palevioletred;
+  height: 700px;
+}
+/* Styles for the row */
+.rowproduct {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for the column */
+.colproduct {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Styles for the card header */
+.cardheadadd {
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  /* background-color: #f1f1f1; */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+}
+
+/* Styles for the card body */
+.cardbodyadd {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: burlywood;
+  margin-top: 50px;
+}
+
+/* Styles for the form inputs and labels */
+.mbpro {
+  margin-bottom: 10px;
+}
+
+.mbpro label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styles for the submit button */
+button.glow-on-hover4 {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 4px #999;
+  width: 100%;
+}
+
+/* Hover effect for the submit button */
+button.glow-on-hover4:hover {
+  background-color: #45a049;
+  box-shadow: 0 6px #666;
+}
